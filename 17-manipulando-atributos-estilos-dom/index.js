@@ -13,9 +13,9 @@ function aumentarFonteSegundoPost() {
 }
 
 function marcarRadio(genero) {
-    let radioMasculino = document.getElementById('genero-feminino')
+    let radioMasculino = document.getElementById('genero-masculino')
 
-    let radioFeminino = document.getElementById('genero-masculino')
+    let radioFeminino = document.getElementById('genero-feminino')
 
     if (genero === 'F') {
         radioFeminino.checked = true
